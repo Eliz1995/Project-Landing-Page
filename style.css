@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* HEADER */
+header,footer{
+    background-color:#1f2937 ;
+    padding: 1em 15em;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+    
+}
+
+nav ul, nav a{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+#menu p{
+    color:#f9faf8 ;
+    font-size: 24px;
+}
+
+.menu-info{
+    display: flex;
+    gap: 10em;
+    align-items: center;
+}
+
+.menu-info h1{
+    color:#f9faf8 ;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.menu-info p, button{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right{
+    display: flex;
+    gap: 3em;
+    float: right;
+}
+
+.left p{
+    padding: 1em 0;
+}
+
+button{
+    background-color: #3882f6;
+    border-radius: 0.4em;
+    padding: 0.3em;
+}
+
+/* MAIN */
+main{
+    padding: 2em 0 4em;
+}
+
+
+main p{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding: 0 0 30px;
+}
+
+#images{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    
+}
+
+.text{
+    text-align: center; 
+    max-width: fit-content;
+    max-width: 150px;
+}
+
+figure {
+    border:3px solid #3882f6;
+    padding: 10px ;
+    border-radius: 10px;
+}
+
+/* QUOTE */
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 3em 15em 2.5em;
+}
+
+#quote-text{
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;   
+}
+
+#float-right{
+    padding:0px 0 2em 45em;
+}
+
+/* LAST SECTION */
+#last-section{
+    margin: 5em 15em;
+    
+}
+
+#last-container{
+    background-color: #3882f6;
+    display: flex;
+    gap: 10em;
+    justify-content: center;
+    padding: 1.5em;
+    color: #e5e7eb;
+}
+
+#b-right{
+    border: 1px solid #e5e7eb;
+    float: right;
+}
+
+#bold{
+    font-weight: bolder;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
